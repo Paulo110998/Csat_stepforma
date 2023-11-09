@@ -1,0 +1,128 @@
+
+
+
+body {
+  
+  text-align: center;
+  background-color: rgb(175, 173, 170);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.img-popup{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border: 10px solid rgb(175, 173, 170);
+}
+.logo{
+margin-top: 70px;
+width: 510px;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.logo1a5{
+  margin-top: 70px;
+width: 560px;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+.pergunta{
+  color: #ffffff;
+font-family: arial;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: -300px;
+}
+.pergunta2{
+  color: #ffffff;
+font-family: arial;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: -325px;
+border: solid 30px transparent;
+
+}
+.classificacao{
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 1px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.descricao{
+color: #FFF;
+font-family: arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: auto;
+margin-right: auto;
+border: 30px solid transparent;
+width: 309px;
+margin-top: -30px;
+}
+.iniciar{
+  
+  width: 103px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 30%;
+  border-radius: 5px;
+  background: #EB8160;
+ border: solid 5px transparent;
+  color: #FFF;
+  font-family: arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -350px;
+  text-decoration: none;
+}
+
+
+
+/* Estilização para colocar os <li> um embaixo do outro */
+.ul_principal {
+  list-style-type: none; /* Remove os marcadores de lista */
+  padding: 0; /* Remove o espaçamento interno */
+  margin: 0; /* Remove o espaçamento externo */
+  margin-left: 20%;
+}
+
+.li_principal {
+  display: block; /* Mostra cada item como um bloco */
+  margin-bottom: 5px; /* Adiciona um espaçamento entre os itens */
+  text-align: left;
+  
+}
+
+.ul_botoes{
+  list-style-type: none;
+  display: flex;
+  margin-left: 13%;
+  margin-top: 25px;
+  
+ 
+}
+.li_botoes{
+  display: block;
+  float: left;
+  justify-content:center ;
+  align-items: center;
+  
+}
