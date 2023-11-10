@@ -16,22 +16,42 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 500px;
+  height: 600px;
   border: 10px solid rgb(175, 173, 170);
+  transition: transform 0.3s ease;
+  margin-top: 100px;
+}
+.img-popup:hover{
+  transform: translateX(8px); /* Movimentando o hover */
+  background-color: transparent;
+  font-size:100%;
+}
+.botao_close{
+  color:#EB8160;
+  font-size: 30px;
+  margin-left: 90%;
+  margin-right: auto;
+  margin-top: 400px;
+ 
+  
+  
 }
 .logo{
-margin-top: 70px;
+
 width: 510px;
 height: 400px;
 margin-left: auto;
 margin-right: auto;
+margin-top: -50px;
 
 }
 .logo1a5{
-  margin-top: 70px;
+  
 width: 560px;
 height: 400px;
 margin-left: auto;
 margin-right: auto;
+margin-top: -50px;
 }
 .pergunta{
   color: #ffffff;
@@ -51,6 +71,20 @@ font-weight: 600;
 line-height: normal;
 margin-top: -325px;
 border: solid 30px transparent;
+margin-left: 19px;
+
+}
+.final{
+  color: #ffffff;
+font-family: arial;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: -325px;
+border: solid 50px transparent;
+margin-left: 25px;
+text-align: left;
 
 }
 .classificacao{
