@@ -13,7 +13,7 @@ import Final from "./Componentes/Final"
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Pesquisa />} />
           <Route path="/cargo" element={<Cargo />} />
